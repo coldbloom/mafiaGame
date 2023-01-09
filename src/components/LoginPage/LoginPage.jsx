@@ -12,7 +12,7 @@ const LoginPage = (props) => {
     //     root.style = `background-image: url(${Background})`
     // }, [])
 
-    const {chains, chainId} = useSelector(state => state.chains)
+    const {chains, chainId} = useSelector(state => state.chains)   //сети
     const dispatch = useDispatch()
 
     return (
